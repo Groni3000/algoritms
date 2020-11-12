@@ -25,6 +25,5 @@ for k in range(n//2 + 1):
 
     for i in range(0+k+1,n-1-k):
         res[n-1-i][0+k]=res[n-1-k][0+k]+i-k
-    k+=1
 
 print(res)

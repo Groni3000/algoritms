@@ -7,7 +7,7 @@ Type "n" and this script will build a numpy-spiral-matrix with "int32" elements 
 #---DEFINITION---#
 def spiral_matrix(n:int):
     res=np.ones((n,n), dtype='int32')
-
+    
     for k in range(n//2 + 1):
         for i in range(0+k,n-k):
             if k>1:
